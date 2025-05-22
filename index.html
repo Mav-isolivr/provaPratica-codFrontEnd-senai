@@ -10,23 +10,30 @@
 </head>
 <body>
     <header>
-        <section class="container">
-        <img src="css/images/logoTERE.png" alt="TERE">
-        <button>Home</button>
-        <button>How tere works</button>
-        <button>Tere benefits</button>
-        <button id="btn-green-header">Help Center</button>
+        <section class="header"> 
+        <div class="container">
+            <div class="logo">
+            <img src="css/images/logoTERE.png" alt="TERE">
+        </div>
+        <div class="buttons">
+            <button>Home</button>
+            <button>How tere works</button>
+            <button>Tere benefits</button>
+            <button type="button" class="btn btn-success">Help Center</button>
+        </div>
+        </div>
     </section>
     </header>
 
 
     <main>
-        <section class="container">
-            <div class="description-dlw">
+        <section class="description-dlw">
+            <div class="container">
             <h1>DOWNLOAD APP, SAVE MONEY, MAKE FRIENDS!</h1>
             <p>Its simple and its free. Play your part in reducing Carbon Footprint and help Mother Nature to sustain its beauty. So what are you waiting for ? Lets ride together</p>
-            <button id="btn-dowload"> <img src="css/images/icon/play-store-dwl.png" alt="playstore"> <p><b>DOWLOAD</b></p></button>
-            <button id="btn-dowload"> <img src="css/images/icon/app-store-dwl.png" alt="app"> <p><b>DOWLOAD</b></p></button>
+            <button type="button" class="btn btn-dark"> <img src="css/images/icon/play-store-dwl.png" alt="playstore"> <b>DOWLOAD</b></button>
+            <button type="button" class="btn btn-dark"> <img src="css/images/icon/app-store-dwl.png" alt="app"> <b>DOWLOAD</b></button>
+            
         </div>
         <div>
             <img src="css/images/img-car.svg" alt="imagem de uma viagem de carro totalmente ilustrativa">
@@ -34,7 +41,7 @@
         </section>
 
 
-        <section class="container">
+        <section class="navbar-container">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand">Let’s go. Get a link to download the app.</a>
@@ -43,7 +50,8 @@
       
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Enter mobile phone number" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">APPLY TO DRIVE</button>
+        <button class="btn btn-outline-dark" type="submit">APPLY TO DRIVE</button>
+        <!-- <button type="button" class="btn btn-dark">Dark</button> -->
       </form>
     </div>
   </div>
@@ -51,8 +59,8 @@
         </section>
 
 
-        <section class="container">
-            <div class="work">
+        <section class="work">
+            <div class="container">
                 <h2>HOW <span>TERE</span> WORKS</h2>
                 <p>Download and install the tere app. Enter your phone number and make your user account. when approved you may start driving.</p>
 
@@ -89,8 +97,8 @@
             </div>
         </section>
 
-        <section class="container">
-            <div class="benefits">
+        <section class="benefits">
+            <div class="container-">
                 <h2><span>TERE</span> BENEFITS</h2>
                 <div class="flexibilidade">
                     <img src="css/images/icon/01..png" alt="01.">
@@ -119,7 +127,8 @@
     </main>
 
 
-    <footer>
+    <footer class="footer">
+    <div class="container">
         <div class="rodapeLOGO">
             <img src="css/images/tereLOGOtype.jpg" alt="tere">
         </div>
@@ -146,6 +155,7 @@
         <div class="rodapeCR">
             <p>All Rights Reserved tere by Codematics 2022</p>
         </div>
+    </div>
     </footer>
     
 </body>

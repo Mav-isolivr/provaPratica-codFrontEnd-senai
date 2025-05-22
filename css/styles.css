@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header .container{
+    margin: 85px 80px 37px;
+    display: flex;
+    justify-content: space-between
+
+    
+}
