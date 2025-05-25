@@ -1,12 +1,46 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
+} */
+
+main section{
+    display: flex;
 }
 
-header .container{
-    margin: 85px 80px 37px;
+.header .container{
     display: flex;
-    justify-content: space-between
-
+    justify-content: space-between;
+    background-color: #ffff;
+    margin: 50px 80px;
     
+}
+
+.buttons{
+    align-items: center;
+    border: none;
+    background: #ffff; 
+    color: black;
+
+    a{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+    }
+
+
+
+.description-dlw {
+    background-color: #F9F9F9;
+
+        .container{
+            margin: 0 80px;
+        }
+        /* .desc{
+
+        } */
+
+        img{
+            align-items: end;
+        }
 }
