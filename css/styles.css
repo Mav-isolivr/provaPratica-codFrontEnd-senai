@@ -3,9 +3,7 @@
     margin: 0;
 } */
 
-main section{
-    display: flex;
-}
+
 
 .header .container{
     display: flex;
@@ -31,16 +29,23 @@ main section{
 
 
 .description-dlw {
-    background-color: #F9F9F9;
+     background-color: #F9F9F9;
 
-        .container{
+    .container{
+            display: flex;
             margin: 0 80px;
-        }
-        /* .desc{
+    }
 
-        } */
+    .description{
+    margin: 100px;
 
-        img{
-            align-items: end;
+        h1{
+        font-size: 60px;
         }
+        p{
+        margin: 27px 0 62px 0;
+         }
+    }
 }
+
+
