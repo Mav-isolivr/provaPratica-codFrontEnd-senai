@@ -1,7 +1,23 @@
-/* *{
-    padding: 0;
+*{
     margin: 0;
-} */
+    padding: 0; 
+    
+}
+@font-face {
+    font-family: 'Gilroy'; /* Este é o nome que você usará para aplicar a fonte */
+    src: url('./fonts/Gilroy.ttf') format('ttf');
+    font-weight: normal; /* Define o peso para este arquivo de fonte */
+    font-style: normal;
+    font-display: swap; /* Ajuda a melhorar a performance do carregamento */
+    
+}
+
+main{
+    background: #F9F9F9;
+}
+body {
+    font-family: 'MinhaFonteTere', sans-serif; /* Aplica a fonte principal */
+}
 
 
 
@@ -9,9 +25,11 @@
     display: flex;
     justify-content: space-between;
     background-color: #ffff;
-    margin: 50px 80px;
+    padding: 50px 40px;
     
 }
+
+
 
 .buttons{
     align-items: center;
@@ -47,5 +65,139 @@
          }
     }
 }
+
+
+.navbar {
+    margin: 50px 70px;
+    background: #75BF7A;
+    border-radius: 10px;
+
+    p{
+        color: #ffff;
+        margin:auto;
+        font-size: 24.6px; 
+    }
+
+    .btn{
+        width: 260px;
+        height: 67px;
+    }
+}
+
+.benefits{
+    .flexi{
+        border-radius: 10px;
+        background: #FFFFFF;
+    }
+
+    .ganhos{
+        border-radius: 10px;
+        background: #FFFFFF;
+        margin: 56px 0;
+    }
+
+    .suporte{
+        border-radius: 10px;
+        background: #FFFFFF;
+    }
+}
+.benefits .col-lg-6 .flexi { 
+    
+    width: 80px;   
+    height: 80px;  
+    margin-bottom: 1rem; 
+    display: inline-block; 
+}
+
+
+.benefits .row.mb-5 { 
+    padding-bottom: 2rem; 
+    margin-bottom: 3rem !important; 
+}
+
+
+@media (max-width: 767.98px) { 
+    
+    .benefits .row > div {
+        text-align: center !important;
+    }
+   
+    .benefits .col-lg-6 img:first-child {
+        margin-left: auto !important; 
+        margin-right: auto !important; 
+        display: block !important; 
+    }
+    
+    .benefits .benefitsIMG img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: #ffffff; 
+    padding-top: 60px; 
+    padding-bottom: 30px; 
+    border-top: 1px solid #e9ecef; 
+}
+
+
+.footer .rodapeLOGO img {
+    max-width: 120px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.footer .rodapeBEfriend1 p,
+.footer .rodapeBEfriend2 p {
+    margin-bottom: 0.5rem; 
+    font-size: 0.95rem; 
+    color: #6c757d; 
+}
+
+
+.footer .rodapeBEfriend1 p:first-child b,
+.footer .rodapeBEfriend2 p:first-child b {
+    font-size: 1.1rem; 
+    color: #343a40; 
+    margin-bottom: 1rem; 
+    display: block;
+}
+
+.footer .btn-dark {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    padding: 10px 20px; 
+    margin-bottom: 10px; 
+    width: 100%; 
+    max-width: 160px; 
+}
+
+.footer .btn-dark img {
+    width: 20px; 
+    height: 20px;
+    margin-right: 8px; 
+}
+
+
+.footer .rodapeCR {
+    border-top: 1px solid #e9ecef; 
+    padding-top: 20px; 
+    margin-top: 40px; 
+    text-align: center; 
+    font-size: 0.85rem;
+}
+
+
+
 
 
